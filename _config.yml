@@ -5,6 +5,3 @@ plugins:
 title: Title Here
 tagline: Here is the site's description, as a subtitle.
 description: Here is the site's description, for search engines.
-
-exclude:
-  - README.md
