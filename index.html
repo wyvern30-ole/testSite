@@ -1,12 +1,140 @@
+<!DOCTYPE html> <!-- tells browser it's an html5 document -->
+
 <html>
-  
-  <head>
+
+<head>
+    <title>~Basic Website~</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-  </head>
-  
-  <body>
-    <h1>Title</h1>
-  </body>
-  
+    <meta charset="utf-8">
+    <!-- 1 means not zoomed in or out -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!--      &lt; = <     and    &gt; = >      -->
+
+    <h3><u>Header tags:</u></h3>
+    <h1>&lt;h1&gt; --> Header tag 1</h1>
+    <h2>&lt;h2&gt; --> Header tag 2</h2>
+    <h3>&lt;h3&gt; --> Header tag 3</h3>
+    <h4>&lt;h4&gt; --> Header tag 4</h4>
+    <h5>&lt;h5&gt; --> Header tag 5</h5>
+    <h6>&lt;h6&gt; --> Header tag 6</h6>
+
+    <h3><u>Paragraph:</u></h3>
+    <p>&lt;p&gt; --> paragraph</p>
+    <p>&lt;br&gt; --> break</p>
+    <p>&lt;b&gt; --> bold</p>
+    <p>&lt;i&gt; --> italics</p>
+    <p>&lt;u&gt; --> underline</p>
+    <p>&lt;em&gt; --> emphasize</p>
+    <p>&lt;strong&gt; --> strong</p>
+
+    <p>
+        Lorem ipsum dolor sit amet,
+        <b>consectetur adipiscing elit.</b>
+        Vestibulum faucibus velit placerat gravida mollis.
+        <i>Proin eget mauris vel quam blandit bibendum.</i>
+        Curabitur vel
+        <u>volutpat tortor</u>
+        , ut fermentum dui. Vestibulum viverra lacus nec dolor varius,
+        <em>ut lacinia dui tincidunt.</em>
+        <br>Nullam finibus eros et orci auctor dignissim.
+        <strong>Integer a purus ut odio maximus feugiat.</strong>
+    </p>
+
+    <p>&lt;hr&gt; --> horizontal rule</p>
+    <p>&lt;a&gt; --> anchor</p>
+    <p>&lt;target&gt; --> with _blank, will open a new webpage</p>
+
+    <p>
+        <hr>
+        <!-- href = hypertext reference -->
+        Nam vitae auctor nibh. Cras molestie iaculis velit, <a href="https://en.wikipedia.org/wiki/Cat">vitae vestibulum est eleifend imperdiet</a>.
+        Duis convallis odio lacus, <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">ut convallis risus dictum in</a>.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+    </p>
+
+    <h3><u>Image:</u></h3>
+    <p>&lt;img&gt; --> image</p>
+    <img src="trees.jpg"
+         height="200"
+         border="12"> <!-- other length auto resizes-->
+
+    <h3><u>Lists:</u></h3>
+    <p>&lt;li&gt; --> list</p>
+    <p>&lt;ul&gt; --> unordered list</p>
+    <p>&lt;ol&gt; --> ordered list</p>
+    <ul>
+        <li>red</li>
+        <li>orange</li>
+        <li>yellow</li>
+    </ul>
+    <ol>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+    </ol>
+    <ul>
+        <li>
+            fish
+            <ol>
+                <li>
+                    tuna
+                    <ul>
+                        <li>unlike a piano which you can tune</li>
+                    </ul>
+                </li>
+                <li>cat</li>
+            </ol>
+        </li>
+    </ul>
+
+    <h3><u>Table:</u></h3>
+    <p>&lt;table&gt; --> table</p>
+    <p>&lt;th&gt; --> table header</p>
+    <p>&lt;td&gt; --> table data</p>
+    <p>&lt;tr&gt; --> table row</p>
+    <table border="5"
+           cellpadding="15"
+           cellspacing=".2">
+        <tr>
+            <th span="3">VERY IMPORTANT</th>
+            <th>info:</th>
+            <th>apple trees</th>
+            <th>tuna trees</th>
+            <th colspan="2">ice trees</th>
+        </tr>
+        <tr>
+            <td>interest:</td>
+            <td>average</td>
+            <td>very low</td>
+            <td>high</td>
+        </tr>
+        <tr>
+            <td>comments:</td>
+            <td>typical</td>
+            <td>why???</td>
+            <td>expensive-</td>
+            <td>...but cool ;)</td>
+        </tr>
+        <tr>
+            <td rowspan="2"</td>
+            <td rowspan="2">Irrelevant</td>
+            <td>random info:</td>
+            <td>12345</td>
+            <td>8675309</td>
+            <td>o0O00o0oOO</td>
+        </tr>
+        <tr>
+            <td>more random info:</td>
+            <td>123</td>
+            <td>867</td>
+            <td>o0O</td>
+        </tr>
+    </table>
+
+</body>
+
 </html>
